@@ -1,0 +1,57 @@
+/*
+ * Upcoming Posts Admin Styles
+ * Styling for the admin section for the upcoming post (styling like wordpress)
+ */
+#post-body .set-upcoming-preview{
+}
+#post-body .set-upcoming-preview:before{
+    font: 400 20px/1 dashicons;
+    content: "\f488";
+    speak: none;
+    display: inline-block;
+    padding: 0 2px 0 0;
+    top: 0;
+    left: -1px;
+    position: relative;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    color: #82878c;
+}
+#post-body .set-upcoming-preview .title{
+	display: inline-block!important;
+}
+#post-body .set-upcoming-preview .value{
+	margin-left: 5px;
+}
+
+#post-body .set-upcoming-preview .content-container{
+	display: none;
+}
+#post-body .set-upcoming-preview .content-container.active{
+	display: block;
+}
+
+
+/*main enable / disable option*/
+#post-body .set-upcoming-preview .content-options{
+	padding-top: 5px;
+}
+/*option selection for displaying the post preview (if enabled)*/
+#post-body .set-upcoming-preview .content-settings{
+	padding-top: 5px;
+	margin-left: 12px;
+	display: none;
+}
+/*final options to configure X word number display*/
+#post-body .set-upcoming-preview .content-sub-settings{
+	padding-top: 5px;
+	margin-left: 24px;
+	display: none;
+}
+
+#post-body .set-upcoming-preview .toggle-content-close,
+#post-body .set-upcoming-preview .toggle-content-open{
+	display: inline-block;
+}
